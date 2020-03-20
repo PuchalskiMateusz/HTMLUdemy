@@ -6,5 +6,32 @@
 </head>
 <body>
     
+    <form action="process.php" method="post">
+        
+        <label for="name">Name<!--Label makes it separated-->
+            <input name="name" type="text" placeholder="Enter name">
+        </label>
+        <label for="lastname">Lastname
+            <input name="lastname" type="text" placeholder="Enter lastname"><!--name stands for name of this input, it would be used eg in php, type makes tapy of data, placeholder will show text in form-->
+        </label><br />
+        
+        <lable for="email">Email
+            <input name="email" type="email" placeholder="Enter email">
+        </lable><br>
+        
+         <label for="password">Password
+            <input name="password" type="password" placeholder="Enter password">
+        </label><br>
+        
+        <lable for="file">File
+            <input name="file" type="file">    
+        </lable>
+        
+        <p>
+            <input type="submit">
+        </p>
+    
+    </form>
+    
 </body>
 </html>
