@@ -1,5 +1,15 @@
-p{
+div{
+    color: blue; 
+}
+div h1{
         color: red;
         font-weight: bold;
         font-family: fantasy;
+}
+#firstPara{
+    color: salmon;
+    font-family: cursive
+}
+.firstPara{
+    color: aqua
 }
